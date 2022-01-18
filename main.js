@@ -21,7 +21,7 @@ function product(name, ref, price, img_src,qte,category_name, desc) {
     this.category_name = category_name;
     this.price = price;
     this.desc = desc;
-    console.log( img_src)
+  
   }
 
   //Créer objet category
@@ -99,12 +99,12 @@ function product(name, ref, price, img_src,qte,category_name, desc) {
             div.addEventListener("click", function LoadOneProduct()
             {
               container[0].innerHTML="";
-              console.log(article.name)
+              
               displayOneProduct(article)
             })
         
     }
-    console.log(category.listProducts);
+
   }
   anchorNintendo.addEventListener("click",function PageNintendo()
   {
@@ -216,7 +216,7 @@ function product(name, ref, price, img_src,qte,category_name, desc) {
     {
       choice.qte=qte.value;
       qte.textContent = qte.value;      
-      console.log(choice.qte);
+   
     
     })
 
@@ -311,7 +311,7 @@ function product(name, ref, price, img_src,qte,category_name, desc) {
               div.addEventListener("click", function LoadOneProduct()
               {
                 container[0].innerHTML="";
-                console.log(Product.name)
+               
                 displayOneProduct(Product)
               })
         }
